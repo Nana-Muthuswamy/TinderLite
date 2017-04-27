@@ -25,19 +25,16 @@
                                 <rect key="frame" x="0.0" y="559" width="375" height="108"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="ryan" id="bir-2F-vSh">
+                            <view contentMode="scaleToFill" misplaced="YES" id="QLJ-SQ-exe" customClass="DraggableImageView" customModule="TinderLite" customModuleProvider="target">
                                 <rect key="frame" x="35" y="181" width="304" height="304"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <gestureRecognizers/>
-                                <connections>
-                                    <outletCollection property="gestureRecognizers" destination="a1Z-Y7-Y1q" appends="YES" id="uMT-g1-gtf"/>
-                                </connections>
-                            </imageView>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
-                        <outlet property="profileImageView" destination="bir-2F-vSh" id="rpG-zu-bIF"/>
+                        <outlet property="draggableImageView" destination="QLJ-SQ-exe" id="jei-QT-JEv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -53,7 +50,6 @@
     <resources>
         <image name="action_buttons" width="320" height="108"/>
         <image name="nav_bar" width="320" height="65"/>
-        <image name="ryan" width="449" height="514"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

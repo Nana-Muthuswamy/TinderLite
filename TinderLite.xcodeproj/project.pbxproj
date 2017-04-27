@@ -12,6 +12,8 @@
 		390C80ED1EB187D000FDFC9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 390C80EB1EB187D000FDFC9A /* Main.storyboard */; };
 		390C80EF1EB187D000FDFC9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 390C80EE1EB187D000FDFC9A /* Assets.xcassets */; };
 		390C80F21EB187D000FDFC9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 390C80F01EB187D000FDFC9A /* LaunchScreen.storyboard */; };
+		390C80FC1EB1944900FDFC9A /* DraggableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 390C80FB1EB1944900FDFC9A /* DraggableImageView.swift */; };
+		390C80FE1EB1945600FDFC9A /* DraggableImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 390C80FD1EB1945600FDFC9A /* DraggableImageView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		390C80EE1EB187D000FDFC9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		390C80F11EB187D000FDFC9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		390C80F31EB187D000FDFC9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		390C80FB1EB1944900FDFC9A /* DraggableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableImageView.swift; sourceTree = "<group>"; };
+		390C80FD1EB1945600FDFC9A /* DraggableImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DraggableImageView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				390C80E71EB187D000FDFC9A /* AppDelegate.swift */,
 				390C80E91EB187D000FDFC9A /* CardsViewController.swift */,
+				390C80FB1EB1944900FDFC9A /* DraggableImageView.swift */,
+				390C80FD1EB1945600FDFC9A /* DraggableImageView.xib */,
 				390C80EB1EB187D000FDFC9A /* Main.storyboard */,
 				390C80EE1EB187D000FDFC9A /* Assets.xcassets */,
 				390C80F01EB187D000FDFC9A /* LaunchScreen.storyboard */,
@@ -125,6 +131,7 @@
 			files = (
 				390C80F21EB187D000FDFC9A /* LaunchScreen.storyboard in Resources */,
 				390C80EF1EB187D000FDFC9A /* Assets.xcassets in Resources */,
+				390C80FE1EB1945600FDFC9A /* DraggableImageView.xib in Resources */,
 				390C80ED1EB187D000FDFC9A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				390C80EA1EB187D000FDFC9A /* CardsViewController.swift in Sources */,
+				390C80FC1EB1944900FDFC9A /* DraggableImageView.swift in Sources */,
 				390C80E81EB187D000FDFC9A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
