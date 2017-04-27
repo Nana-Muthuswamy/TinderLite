@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  CardsViewController.swift
 //  TinderLite
 //
 //  Created by Nana on 4/26/17.
